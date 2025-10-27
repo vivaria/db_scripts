@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         DuelingBook Match Styling
+@description  viv's match styling
+@namespace    viv
+@version      1.0
+@author       vivaria
+@homepageURL  https://github.com/vivaria/db_scripts
+@supportURL   https://github.com/vivaria/db_scripts/issues
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
 /* Replace your name with something silly */
 .chat-line b font[color="#FF0000"] {
     color: transparent !important;
