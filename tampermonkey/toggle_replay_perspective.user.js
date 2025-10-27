@@ -1,6 +1,13 @@
 // ==UserScript==
-// @name         Toggle Replay Perspective (Player Name & ID Version)
-// @match        https://www.duelingbook.com/replay?id=*
+// @name         Toggle Replay Perspective
+// @description  Adds a button to switch the player whose perspective the replay is viewed from
+// @version      1.0
+// @author       vivaria
+// @license		   MIT
+// @homepageURL  https://github.com/vivaria/db_scripts
+// @updateURL    https://github.com/vivaria/db_scripts/raw/main/tampermonkey/toggle_replay_perspective.user.js
+// @downloadURL  https://github.com/vivaria/db_scripts/raw/main/tampermonkey/toggle_replay_perspective.user.js
+// @match        *://*.duelingbook.com/replay?id=*
 // @grant        none
 // ==/UserScript==
 
