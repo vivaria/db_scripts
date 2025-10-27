@@ -10,83 +10,84 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-/* Replace your name with something silly */
-.chat-line b font[color="#FF0000"] {
-    color: transparent !important;
-    font-size: 0px !important;
-    position: relative;
+@-moz-document domain("duelingbook.com") {
+    /* Replace your name with something silly */
+    .chat-line b font[color="#FF0000"] {
+        color: transparent !important;
+        font-size: 0px !important;
+        position: relative;
+    }
+    .chat-line b font[color="#FF0000"]::before {
+        content: "Me: ";
+        color: #00AA00 !important;
+        font-size: 12px !important;
+    }
+    
+    /* Replace opponent's name with something silly */
+    .chat-line b font[color="#0000FF"] {
+        color: transparent !important;
+        font-size: 0px !important;
+        position: relative;
+    }
+    .chat-line b font[color="#0000FF"]::before {
+        content: "Opponent: ";
+        color: #333333 !important;
+        font-size: 12px !important;
+    }
+    
+    
+    /* Blur chat messages until hovered over */
+    /* .chat-line font:not(b font) {
+        color: transparent !important;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease;
+    }
+    .chat-line font:not(b font):hover {
+        color: #000 !important;
+        text-shadow: none;
+    } */
+    
+    
+    /* Hide the system logs */
+    .chat-line b font[color="#000000"] {
+        position: absolute !important;
+        left: -9999px !important;
+    }
+    
+    /* Hide the watchers window */
+    #watchers {
+        display: none !important;
+    }
+    
+    
+    /* Change location of duel log 
+    #duel_log {
+        top: 300px !important;
+        bottom: auto !important;
+        left: -155px !important;
+        right: auto !important;
+        width: 100px !important;
+        height: 500px !important;
+    }/*
+    
+    /* Change username text */
+    /* .duel_avatar#avatar1 .username_txt {
+        color: transparent !important;
+        font-size: 0px !important;
+    } */
+    .duel_avatar#avatar2 .username_txt {
+        color: transparent !important;
+        font-size: 0px !important;
+    }
+    /* .duel_avatar#avatar1 .username_txt::before {
+        content: "vivaria";
+        color: #FFF     !important;
+        font-size: 14px !important;
+    } */
+    
+    .duel_avatar#avatar2 .username_txt::before {
+        content: "Opponent";
+        color: #333 !important;
+        font-size: 20px !important;
+    }
 }
-.chat-line b font[color="#FF0000"]::before {
-    content: "Me: ";
-    color: #00AA00 !important;
-    font-size: 12px !important;
-}
-
-/* Replace opponent's name with something silly */
-.chat-line b font[color="#0000FF"] {
-    color: transparent !important;
-    font-size: 0px !important;
-    position: relative;
-}
-.chat-line b font[color="#0000FF"]::before {
-    content: "Opponent: ";
-    color: #333333 !important;
-    font-size: 12px !important;
-}
-
-
-/* Blur chat messages until hovered over */
-/* .chat-line font:not(b font) {
-    color: transparent !important;
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease;
-}
-.chat-line font:not(b font):hover {
-    color: #000 !important;
-    text-shadow: none;
-} */
-
-
-/* Hide the system logs */
-.chat-line b font[color="#000000"] {
-    position: absolute !important;
-    left: -9999px !important;
-}
-
-/* Hide the watchers window */
-#watchers {
-    display: none !important;
-}
-
-
-/* Change location of duel log 
-#duel_log {
-    top: 300px !important;
-    bottom: auto !important;
-    left: -155px !important;
-    right: auto !important;
-    width: 100px !important;
-    height: 500px !important;
-}/*
-
-/* Change username text */
-/* .duel_avatar#avatar1 .username_txt {
-    color: transparent !important;
-    font-size: 0px !important;
-} */
-.duel_avatar#avatar2 .username_txt {
-    color: transparent !important;
-    font-size: 0px !important;
-}
-/* .duel_avatar#avatar1 .username_txt::before {
-    content: "vivaria";
-    color: #FFF     !important;
-    font-size: 14px !important;
-} */
-
-.duel_avatar#avatar2 .username_txt::before {
-    content: "Opponent";
-    color: #333 !important;
-    font-size: 20px !important;
-}
-
