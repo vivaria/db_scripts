@@ -3,7 +3,7 @@
 // @description  Adds a button to switch the player whose perspective the replay is viewed from
 // @version      1.0
 // @author       vivaria
-// @license		   MIT
+// @license      MIT
 // @homepageURL  https://github.com/vivaria/db_scripts
 // @updateURL    https://github.com/vivaria/db_scripts/raw/main/tampermonkey/toggle_replay_perspective.user.js
 // @downloadURL  https://github.com/vivaria/db_scripts/raw/main/tampermonkey/toggle_replay_perspective.user.js
