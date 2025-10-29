@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         DuelingBook: Auto-download replay JSON
-// @namespace    http://tampermonkey.net/
+// @description  Download JSON responses from https://www.duelingbook.com/view-replay?id=... (captures fetch + XHR).
 // @version      1.1
-// @description  Auto-download JSON responses from https://www.duelingbook.com/view-replay?id=... (captures fetch + XHR).
 // @author       vivaria
-// @match        https://www.duelingbook.com/*
+// @license      MIT
+// @homepageURL  https://github.com/vivaria/db_scripts
+// @updateURL    https://github.com/vivaria/db_scripts/raw/main/tampermonkey/download_replay_json.user.js
+// @downloadURL  https://github.com/vivaria/db_scripts/raw/main/tampermonkey/download_replay_json.user.js
+// @match        *://www.duelingbook.com/replay*
 // @grant        none
 // ==/UserScript==
 
