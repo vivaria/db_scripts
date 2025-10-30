@@ -2,7 +2,7 @@
 @name         DuelingBook Match Styling
 @description  viv's match styling
 @namespace    viv
-@version      1.0
+@version      1.1
 @author       vivaria
 @homepageURL  https://github.com/vivaria/db_scripts
 @supportURL   https://github.com/vivaria/db_scripts/issues
@@ -53,13 +53,7 @@
         position: absolute !important;
         left: -9999px !important;
     }
-    
-    /* Hide the watchers window */
-    #watchers {
-        display: none !important;
-    }
-    
-    
+        
     /* Change location of duel log 
     #duel_log {
         top: 300px !important;
