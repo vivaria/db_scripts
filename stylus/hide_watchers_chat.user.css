@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name         Hide watchers chat
+@description  Simple CSS tweak to hide the watchers chat
+@namespace    https://stylus.net
+@version      1.0
+@author       vivaria
+@homepageURL  https://github.com/vivaria/db_scripts
+@supportURL   https://github.com/vivaria/db_scripts/issues
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document domain("duelingbook.com") {   
+    /* Hide the watchers window */
+    #watchers {
+        display: none !important;
+    }
+}
